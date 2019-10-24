@@ -15,3 +15,9 @@ Si se usa la extensión git-flow, al ejecutar git flow init, este crearía la ra
 git flow feature start nombre_caracteristica  
 ## Como terminar una rama de característica.
 Cuando se haya terminado con el desarrollo de la nueva característica del proyecto, el siguiente paso es realizar la migración (merge) con la rama develop.
+
+## Con la extensión git-flow:
+ git flow feature finish nombre_caracteristica  
+## Como empezar una rama de lanzamiento.
+Con la extensión git-flow:
+ git flow release start 0.1.0  
